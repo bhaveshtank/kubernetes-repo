@@ -8,7 +8,7 @@ node {
       def prodImage = docker.build("gcr.io/[PROJECT_NAME]/httpd-prod", "./prod") 
     
   
-    withDockerRegistry([gcr:['athenas-owl-administrative'] , url: 'https://gcr.io']){
+    withDockerRegistry([gcr:['PORJECT_NAME'] , url: 'https://gcr.io']){
         devImage.dev()
 	qaImage.push()
 	prodImage.push()
