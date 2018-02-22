@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: httpd-dev
-        image: gcr.io/athenas-owl-administrative/httpd-qa
+        image: gcr.io/[PROJECT_NAME]/httpd-qa
         ports:
         - containerPort: 80
 
