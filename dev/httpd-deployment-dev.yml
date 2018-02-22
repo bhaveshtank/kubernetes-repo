@@ -1,0 +1,22 @@
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: httpd-deployment-dev
+  labels:
+    app: httpd
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: httpd-dev
+  template:
+    metadata:
+      labels:
+        app: httpd-dev
+    spec:
+      containers:
+      - name: httpd-qa
+        image: gcr.io/athenas-owl-administrative/httpd-dev
+        ports:
+        - containerPort: 80
+
