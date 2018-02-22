@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: httpd-prod
-        image: gcr.io/athenas-owl-administrative/httpd-prod
+        image: gcr.io/[PROJECT_NAME]/httpd-prod
         ports:
         - containerPort: 80
 
