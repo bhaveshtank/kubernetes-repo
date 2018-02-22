@@ -8,7 +8,7 @@
 
 ## Docker Images
 
-I have used httpd image from the Docker Hub for this test.
+I have used __httpd image__ from the Docker Hub for this test.Instead of the one which was provided for the purpose.
 * All the docker images are pushed to gcr repository
 
 Screeshot of gcr repo
