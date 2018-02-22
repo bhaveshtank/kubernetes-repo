@@ -1,4 +1,11 @@
 # kubernetesRepo
+
+### How to use ??
+* Please replace all the placeholder with appropriate value which suits your env.
+* Enable gcr API on gcp
+* Create Service account and give storage right to that account.
+
+
 ## Docker Images
 
 I have used httpd image from the Docker Hub for this test.
