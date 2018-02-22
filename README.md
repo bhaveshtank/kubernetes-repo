@@ -1,6 +1,5 @@
 # kubernetesRepo
-==============================
-Docker Images
+##Docker Images
 I have used httpd image from the Docker Hub for this test.
 * All the docker images are pushed to gcr repository
 
@@ -23,5 +22,8 @@ Similarly I have done for qa and dev
 Jenkins is used as the orchestrator
 * Please find the Jenkinsfile for the further reference.
 
+ScreenShots
+Jenkins Pipeline
 
+![GitHub Logo](/images/Jenkins.png)
 
