@@ -1,6 +1,7 @@
 apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
+  namespace: apps
   name: httpd-deployment-dev
   labels:
     app: httpd
@@ -16,7 +17,7 @@ spec:
     spec:
       containers:
       - name: httpd-dev
-        image: gcr.io/[PORJECT_NAME]/httpd-dev
+        image: nginx:stable-alpine
         ports:
         - containerPort: 80
 
